@@ -49,3 +49,5 @@ This node cannot be used recursively, because Godot does not allow for nested
 custom MultiplayerAPIs.  However, it can be used in multiple sibling scenes to
 allow for things like different multiplayer zones for different sets of peers.
 
+On the server side, you'll need a [plugin](https://github.com/godotengine/webrtc-native) for WebRTC support.  No plugins are needed for the client side, if
+running as a Web app.
